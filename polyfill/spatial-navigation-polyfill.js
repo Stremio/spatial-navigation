@@ -110,9 +110,9 @@
      * If the mouse click a point in the page, the point will be the starting point.
      * NOTE: Let UA set the spatial navigation starting point based on click
      */
-    document.addEventListener('mouseup', e => {
-      startingPoint = {x: e.clientX, y: e.clientY};
-    });
+    // document.addEventListener('mouseup', e => {
+    //   startingPoint = {x: e.clientX, y: e.clientY};
+    // });
   }
 
   /**
