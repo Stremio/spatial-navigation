@@ -86,7 +86,7 @@
           ((currentKeyMode === 'ARROW') && e.shiftKey))
         return;
 
-      if (!e.defaultPrevented) {
+      if (!e.defaultPrevented && !e.spatialNavigationPrevented) {
         let focusNavigableArrowKey = {left: true, up: true, right: true, down: true};
 
         // Edge case (text input, area) : Don't move focus, just navigate cursor in text area
